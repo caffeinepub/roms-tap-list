@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that wraps the app with ThemeProvider and QueryClientProvider, renders the header, beer list, footer, and add beer dialog with toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including fetching all beers, adding, updating, toggling on tap status, and removing beers with automatic cache invalidation.",
+  "frontend/src/components/Header.tsx": "Header component displaying the Brew Board logo, title, and an \"Add Beer\" button with brewery-themed amber gradient styling.",
+  "frontend/src/components/BeerList.tsx": "Main beer list component that fetches and displays beers grouped by \"On Tap\" and \"Bottled\" sections with loading states and empty state messaging.",
+  "frontend/src/components/BeerCard.tsx": "Individual beer card component displaying beer details (name, style, ABV, IBU, description), with edit/delete buttons, and an on tap/bottle toggle switch.",
+  "frontend/src/components/AddBeerDialog.tsx": "Dialog form component for adding new beers with validation for all fields (name, style, ABV, IBU, description) and success/error toast notifications.",
+  "frontend/src/components/EditBeerDialog.tsx": "Dialog form component for editing all beer details including name, style, ABV, IBU, description, and On Tap/Bottle status with pre-populated fields, validation, and success/error toast notifications.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice and caffeine.ai attribution link with a heart icon.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized for a warm amber/brewery theme supporting both light and dark modes."
+}
